@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="ATMSystem.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\Clients.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
